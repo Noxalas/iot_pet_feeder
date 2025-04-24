@@ -1,0 +1,14 @@
+{
+  "name": "Food Level",
+  "unique_id": "athena_foodlevel_sensor",
+  "state_topic": "state/petfeeder/foodlevel",
+  "unit_of_measurement": "%",
+  "state_class": "measurement",
+  "value_template": "{{ value | float}}",
+  "device": {
+    "identifiers": "athena_petfeeder",
+    "name": "Athena Pet Feeder",
+    "model": "ATH-01",
+    "manufacturer": "SLNM"
+  }
+}

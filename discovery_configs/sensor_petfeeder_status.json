@@ -1,0 +1,13 @@
+{
+  "name": "Feeder Status",
+  "unique_id": "athena_status",
+  "state_topic": "state/petfeeder/status",
+  "icon": "mdi:robot",
+  "value_template": "{{ value }}",
+  "device": {
+    "identifiers": "athena_petfeeder",
+    "name": "Athena Pet Feeder",
+    "model": "ATH-01",
+    "manufacturer": "SLNM"
+  }
+}

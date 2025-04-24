@@ -1,0 +1,19 @@
+{
+  "name": "Portion Size",
+  "unique_id": "petfeeder_portion",
+  "device": {
+    "identifiers": "athena_petfeeder",
+    "name": "Athena Pet Feeder",
+    "model": "ATH-01",
+    "manufacturer": "SLNM"
+  },
+  "state_topic": "state/petfeeder/dispenser/portion",
+  "command_topic": "command/petfeeder/dispenser/portion",
+  "min": 0,
+  "max": 200,
+  "step": 10,
+  "initial": 65,
+  "unit_of_measurement": "g",
+  "device_class": "weight",
+  "mode": "slider"
+}

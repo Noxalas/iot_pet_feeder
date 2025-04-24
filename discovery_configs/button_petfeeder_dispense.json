@@ -1,0 +1,13 @@
+{
+  "name": "Food Dispenser",
+  "unique_id": "athena_dispenser",
+  "command_topic": "command/petfeeder/dispenser",
+  "payload_press": "feed",
+  "icon": "mdi:cat",
+  "device": {
+    "identifiers": "athena_petfeeder",
+    "name": "Athena Pet Feeder",
+    "model": "ATH-01",
+    "manufacturer": "SLNM"
+  }
+}
